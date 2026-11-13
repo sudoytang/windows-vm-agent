@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "windows-vm": {
+      "command": "node",
+      "args": ["/absolute/path/to/windows-vm-agent/host/mcp.cjs"],
+      "env": {
+        "VM_AGENT_CONFIG": "/absolute/path/to/windows-vm-agent/private/connection.json"
+      }
+    }
+  }
+}

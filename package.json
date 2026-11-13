@@ -1,0 +1,14 @@
+{
+  "name": "windows-vm-agent",
+  "version": "0.1.0",
+  "description": "A text-first Windows VM computer-use bridge with SSH, UI Automation, CLI and MCP.",
+  "private": true,
+  "license": "Unlicense",
+  "engines": { "node": ">=22" },
+  "bin": { "vm": "host/cli.cjs" },
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "check": "node scripts/check-project.cjs",
+    "build:guest": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File build.ps1"
+  }
+}

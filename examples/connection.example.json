@@ -1,0 +1,9 @@
+{
+  "guestAddress": "192.0.2.10",
+  "user": "vmuser",
+  "sshAlias": "vm-agent",
+  "sshConfig": "ssh_config",
+  "apiPort": 18765,
+  "localPort": 18765,
+  "apiToken": "GENERATE_A_RANDOM_TOKEN_WITH_SCRIPTS_INIT"
+}
